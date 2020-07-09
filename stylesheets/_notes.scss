@@ -1,0 +1,77 @@
+#item2{
+    .notes-app-container{
+        width:500px;
+        
+    }
+    h1{
+        font-size:2rem;
+        font-weight:600;
+        margin:10px;
+    }
+   
+    
+    .card{
+        
+        width:60%;
+    
+    }
+    
+    .card-body{
+        padding:10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 0 2px lightgrey;
+        background: gainsboro;
+    }
+    
+    .note-title{
+        width:89%;
+        padding:5px;
+        margin:10px 0;
+    }
+
+    .whole-note-container{
+        display: flex;
+        margin-left:1rem;
+    }
+    
+    .card-title{
+        font-size:1rem;
+        font-weight: 600;
+    }
+    
+    .form-control{
+        width:90%;
+        resize: none;
+        margin:10px 0;
+    
+    }
+    
+    .add-note-btn{
+        background-color: #007BFF;
+        color:white;
+        padding:5px 10px;
+    }
+    .your-notes{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .noteCard{
+        margin:1rem;
+    }
+    
+    .container-fluid{
+        
+        margin:0 2rem;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    
+    .card-text{
+        margin:10px 0;
+        font-size:0.8rem;
+    }
+    .nothing-to-show{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+    // background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
+    background: antiquewhite;
+    // background-size: cover;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .nav-btn-container{
+      display:flex;
+      flex-direction: column;
+  }
+  .nav-btn{
+      color:red;
+      text-decoration: none;
+      margin:1rem;
+      background-color: gainsboro;
+  }
+  
+  .items {
+    /* height: 80vh; */
+    // padding: 100px;
+    width: 100%;
+    border: 1px solid transparent;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s;
+ 
+    position: relative;
+    
+    font-size: 0;
+   
+  }
+  
+  .items.active {
+    background: rgba(255,255,255,0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    /* transform: scale(1); */
+  }
+  
+  .item {
+    width: 100%;
+    /* height: calc(100% - 40px); */
+    display: inline-flex;
+    margin-left:5rem;
+    align-items: center;
+    justify-content: start;
+    font-size: 80px;
+    font-weight: 100;
+   
+  }
+
+
+
+  .item1,.item2,.item3{
+      width:100%;
+      flex-direction: column;
+
+  }
+  .item1 h3,.item2 h3,.item3 h3{
+    font-size: 2rem;
+  }     
+ 
+      
+ 
+  
+ 
+  

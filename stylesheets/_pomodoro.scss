@@ -1,0 +1,101 @@
+/* pomodoro styling starts */
+
+
+.timer{
+    width:50%;
+    /* height:40vh; */
+    background:#333;
+    border-radius: 5px;
+    outline:none;
+    margin:2rem auto;
+  }
+
+
+  .timer__controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .timer__button{
+    padding:0.8rem 1.2rem;
+    border:0;
+    border-radius: 2rem;
+    color:whitesmoke;
+    margin:1rem;
+    
+  }
+  
+  .start{
+    background-color: #0c0;
+   
+  }
+  .start:hover{
+    opacity: 0.85;
+  }
+
+
+  .shortBreak{
+    background-color: #4da6ff;
+  }
+
+  .shortBreak:hover{
+    opacity: 0.85;
+  }
+
+
+  .longBreak{
+    background-color: #fe9e9e ;
+    
+  }
+  .longBreak:hover{
+    opacity: 0.85;
+  }
+
+
+
+  .reset{
+    background-color: red;
+   
+  }
+
+  .reset:hover{
+    opacity: 0.85;
+  }
+
+
+
+  .countdown_timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10rem;
+    height:10rem;
+    border:1px solid tomato;
+    border-radius: 50%;
+    margin:1rem auto;
+    margin-bottom:1rem;
+  }
+
+  .display__time-left{
+    color:tomato;
+    margin:0 auto;
+    font-size: 1.2rem;
+  }
+
+  .be_back_at{
+    margin:1rem;
+    padding-bottom: 1rem;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  .display__end-time{
+    color: tomato;
+    margin:1rem;
+    font-size: 1.5rem;
+    
+
+  }

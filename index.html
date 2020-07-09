@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Js Pro</title>
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     -->
+  </head>
+  <body>
+    <div class="nav-btn-container">
+      <a href="#item1" class="nav-btn">Todo List</a>
+      <a href="#item2" class="nav-btn">Notes</a>
+      <a href="#item3" class="nav-btn">Pomodoro</a>
+  </div>
+    <div class="items">
+      <div class="item item1" id="item1">
+        <h1>todos</h1>
+         <main class="container">
+         <div class="drop-down-flex">
+        <i class="fas fa-chevron-down"></i>
+        <input type="text" placeholder="Add Todo and hit Enter" class="text-input">
+      </div> 
+      <ul class="todo-list">
+        <li>hi</li>
+  
+      </ul>
+      <footer>
+         <span class="item-left">0 item left</span> 
+        <button class="All">All</button>
+        <button class="Completed">Completed</button>
+        <button class="Active">Active</button>
+        <button class="Clear"><a class="anchor" href="#">Clear Completed</a></button>
+      </footer> 
+        </main> 
+         
+        
+      </div>
+
+      <!-- notes app -->
+      <div class="item item2" id="item2">
+       <div class="whole-note-container">
+        <div class="notes-app-container">
+          <h1>Notes App</h1>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Title</h5>
+                  <input type="text" placeholder="Add Title" class="note-title">
+                  <h5 class="card-title">Add a note</h5>
+                  <div class="form-group">
+                      <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                  </div>
+                  <button class="add-note-btn" id="addBtn">Add Note</button>
+              </div>
+          </div>
+        
+          
+        </div>
+        
+        <div id="notes" class="row container-fluid">
+           
+        </div>
+       </div>
+        
+      </div>
+
+
+      <!-- pomodoro app -->
+      <div class="item item3" id="item3">
+        <div class="timer">
+          <div class="timer__controls">
+           
+           
+            <button data-time="1500" class="timer__button start">Start</button>
+            <button data-time="300" class="timer__button shortBreak">ShortBreak</button>
+            <button data-time="900" class="timer__button longBreak">LongBreak</button>
+            <button data-time="0" class="timer__button reset">Reset</button>
+          </div>
+            <div class="countdown_timer">
+              <h1 class="display__time-left">0.00</h1>
+            </div>
+           
+          
+          <div class="be_back_at" id="pomodoro-end">
+             <p class="display__end-time"> </p>
+          </div>
+         
+        </div> 
+      </div>
+     
+    </div>
+    <script src="./js/todo.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/notes.js"></script>
+   
+  </body>
+</html>
